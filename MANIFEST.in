@@ -1,0 +1,13 @@
+include README.md
+include LICENSE
+include requirements.txt
+
+# Include all test files
+recursive-include tests *
+
+# Include documentation files
+recursive-include docs *
+
+# Exclude specific files or directories
+global-exclude *.pyc
+global-exclude __pycache__
